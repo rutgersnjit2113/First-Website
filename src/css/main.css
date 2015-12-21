@@ -87,21 +87,93 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+  width: 960px
+  margin-left: auto;
+  margin-right: auto;
+}  
+#logo {
+  width: 156px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#content {
+  background-image: url(../src/background.jpg);
+  height: 400px
+  background-repeat:no-repeat;
+}
+#left_content {
+  width: 593px;
+}
+#right-content {
+  text-align: center;
+  line-height: 400px;
+}
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+#menu li {
+  display:inline;
+}
+#menu {
+  font-size: 20px;
+  height: 1px;
+}
+#content {
+  background-color: blue;
+}
+#footer {
+  background-color: white;
+}
+.callout_header {
+  width: 960 px;
+  padding-left: 240px;
+}
+.callout_body {
+  width: 145 px;
+  padding-left: 15px;
+}
+.callout_center1 {
+  width: 120px
+  padding-left: 90px;
+}
+.callout_center2 {
+  width: 120px;
+  padding-left: 40px;
+}
+.callout_center3 {
+  width: 130px;
+  padding-left: 50px;
+}
+.callout_center4 {
+  width: 140px;
+  padding-left: 30px;
+}
+.callout_center5 {
+  width: 230px;
+  padding-left: 10px;
+}
+#callout_header {
+  background-color: SteelBlue;
+}
+#callout_body {
+  background-color: SteelBlue;
+}
+#callout_center(1-5) {
+  background-color: SteelBlue;
+}
+ul,li {
+  margin: 0px;
+}
 
 
 /* ==========================================================================
