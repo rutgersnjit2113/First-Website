@@ -91,7 +91,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 #wrapper {
-  width: 960px
+  width: 960px;
   margin-left: auto;
   margin-right: auto;
 }  
@@ -102,15 +102,21 @@ body {
 }
 #content {
   background-image: url(../src/background.jpg);
-  height: 400px
+  height: 430px;
   background-repeat:no-repeat;
+  background-color:grey;
 }
 #left_content {
-  width: 593px;
+  color: darkblue;
+  width: 595px;
+  height: 400px;
+  padding-left: 60px;
+  padding-top: 30px;
 }
 #right-content {
   text-align: center;
-  line-height: 400px;
+  line-height: 250px;
+  padding-left: 100px;
 }
 .float_left {
   float: left;
@@ -121,58 +127,112 @@ body {
 .clear {
   clear: both;
 }
-#menu li {
-  display:inline;
-}
-#menu {
-  font-size: 20px;
+#menu li, form {
+  display: inline;
+  font-size: 15px;
   height: 1px;
-}
-#content {
-  background-color: blue;
 }
 #footer {
   background-color: white;
 }
 .callout_header {
-  width: 960 px;
-  padding-left: 240px;
+  width: 610px;
+  padding-left: 350px;
+  color: white;
 }
-.callout_body {
-  width: 145 px;
-  padding-left: 15px;
+.callout_body1 {
+  color: white;
+  width: 130 px;
+  padding-left: 30px;
+}
+.callout_body2 {
+  color: white;
+  width: 130 px;
+  padding-left: 30px;
+}
+.callout_body3 {
+  color: white;
+  width: 130 px;
+  padding-left: 30px;
+}
+.callout_body4 {
+  color: white;
+  width: 130 px;
+  padding-left: 30px;
+}
+.callout_body5 {
+  color: white;
+  width: 130 px;
+  padding-left: 30px;
+}
+.callout_body6 {
+  color: white;
+  width: 130 px;
+  padding-left: 30px;
 }
 .callout_center1 {
+  color: white;
   width: 120px
-  padding-left: 90px;
+  padding-left: 110px;
 }
 .callout_center2 {
+  color: white;
   width: 120px;
   padding-left: 40px;
 }
 .callout_center3 {
+  color: white;
   width: 130px;
   padding-left: 50px;
 }
 .callout_center4 {
+  color: white;
   width: 140px;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 .callout_center5 {
-  width: 230px;
-  padding-left: 10px;
+  color: white;
+  width: 210px;
+  padding-left: 30px;
 }
 #callout_header {
   background-color: SteelBlue;
 }
-#callout_body {
+#callout_body1 {
   background-color: SteelBlue;
 }
-#callout_center(1-5) {
+#callout_body2 {
   background-color: SteelBlue;
 }
-ul,li {
-  margin: 0px;
+#callout_body3 {
+  background-color: SteelBlue;
+}
+#callout_body4 {
+  background-color: SteelBlue;
+}
+#callout_body5 {
+  background-color: SteelBlue;
+}
+#callout_body6 {
+  background-color: SteelBlue;
+}
+#callout_center1 {
+  background-color: SteelBlue;
+}
+#callout_center2 {
+  background-color: SteelBlue;
+}
+#callout_center3 {
+  background-color: SteelBlue;
+}
+#callout_center4 {
+  background-color: SteelBlue;
+}
+#callout_center5 {
+  background-color: SteelBlue;
+}
+#ul, #li {
+  margin: 0;
 }
 
 
